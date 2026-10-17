@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Формы</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="info.html">История</a></li>
+                <li><a href="table.html">Дискография</a></li>
+                <li><a href="form.html">Приобрести билет на концерт</a></li>
+                <li><a href="DOM.html">DOM_JS. Считываем информацию из DOM</a></li>
+                <li><a href="passport.html">Изменяем кириллицу на латиницу по клику</a></li>
+                <li><a href="task.html">Решение алгоритмической задачи</a></li>
+                <li><a href="https://tvgirl.bandcamp.com/" target="_blank" rel="noopener">Официальный сайт группы</a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <h2>Оставьте свои данные для получения информации о концертах</h2>
+
+        <section>
+
+            <form>
+                <fieldset>
+                    <legend>ФИО</legend>
+
+                    <div>
+                        <label>Фамилия</label>
+                        <input type="text" name="last_name">
+                        <p></p>
+                    </div>
+
+                    <div>
+                        <label>Имя</label>
+                        <input type="text" name="first_name">
+                        <p></p>
+                    </div>
+
+                    <div>
+                        <label>Отчество <small>(если есть)</small></label>
+                        <input type="text" name="middle_name">
+                        <p></p>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Контакты</legend>
+
+                    <div>
+                        <label>Мобильный телефон</label>
+                        <input type="tel" name="phone">
+                        <p>Российский номер: +7 или 8 и ещё 10 цифр.</p>
+                        <p></p>
+                    </div>
+
+                    <div>
+                        <label>Электронная почта</label>
+                        <input type="email" name="email">
+                        <p></p>
+                    </div>
+
+                    <div>
+                        <label>Дата отправки</label>
+                        <input type="date" name="send_date">
+                        <p></p>
+                    </div>
+                </fieldset>
+
+                <div>
+                    <input type="submit" value="Отправить">
+                    <input type="reset" value="Очистить">
+                </div>
+            </form>
+
+            <div></div>
+        </section>
+
+    <script src="scripts/nav.js"></script>
+    <script src="scripts/form.js"></script>
+</body>
+</html>
